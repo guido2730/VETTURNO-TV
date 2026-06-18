@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.VetturnoTV" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#6c63ff</item>
+        <item name="colorPrimaryDark">#1a1a2e</item>
+        <item name="colorAccent">#6c63ff</item>
+        <item name="android:windowBackground">#1a1a2e</item>
+    </style>
+</resources>

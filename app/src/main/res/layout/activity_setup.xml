@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="48dp"
+    android:background="#1a1a2e">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VetTurno TV"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pantalla de Sala de Espera"
+        android:textSize="16sp"
+        android:textColor="#aaaacc"
+        android:layout_marginBottom="48dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código de Sala"
+        android:textSize="14sp"
+        android:textColor="#ccccee"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/et_code"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="Ej: abc123"
+        android:textColorHint="#666688"
+        android:textColor="#ffffff"
+        android:backgroundTint="#444466"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="INICIAR PANTALLA"
+        android:textSize="16sp"
+        android:backgroundTint="#6c63ff"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tv_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar código guardado"
+        android:textSize="13sp"
+        android:textColor="#888899"
+        android:padding="8dp"/>
+
+</LinearLayout>
