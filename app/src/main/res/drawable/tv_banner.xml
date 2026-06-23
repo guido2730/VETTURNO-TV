@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo púrpura -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#1a0533" />
+        </shape>
+    </item>
+
+    <!-- Ícono calendario (izquierda) -->
+    <item
+        android:left="28dp"
+        android:top="24dp"
+        android:bottom="24dp"
+        android:right="220dp">
+        <layer-list>
+            <!-- Marco del calendario -->
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="10dp" />
+                    <stroke android:width="3dp" android:color="#d8b15f" />
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+            <!-- Argolla izquierda -->
+            <item android:left="10dp" android:right="60dp" android:top="0dp" android:bottom="90dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp" />
+                    <solid android:color="#d8b15f" />
+                </shape>
+            </item>
+            <!-- Argolla derecha -->
+            <item android:left="60dp" android:right="10dp" android:top="0dp" android:bottom="90dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp" />
+                    <solid android:color="#d8b15f" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Línea separadora dorada vertical -->
+    <item
+        android:left="148dp"
+        android:right="164dp"
+        android:top="20dp"
+        android:bottom="20dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#d8b15f" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <!-- Texto "vetturno" -->
+    <item
+        android:left="168dp"
+        android:top="38dp"
+        android:bottom="90dp">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</layer-list>
